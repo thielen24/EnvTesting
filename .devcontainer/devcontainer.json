@@ -4,6 +4,7 @@
 	"name": "Python Pytorch GPU",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build": {
+		"context": "../",
 		"dockerfile": "Dockerfile"
 	},
 	"runArgs": ["--name=devcontainer", "--gpus=all", "--rm"],
