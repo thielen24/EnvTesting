@@ -1,6 +1,4 @@
-jupyter
-notebook
 pytest
-future
 torch
 torchvision
+wandb
